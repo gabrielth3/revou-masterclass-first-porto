@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Starter | RevoU MasterClass</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- 
+        STEP 1: THE CONTAINER
+        The 'cv-container' centers our content and limits its width.
+    -->
+    <div class="cv-container">
+      <!-- 
+            STEP 2: THE HEADER (Identity & Contact)
+            Live Edit: Change the name and role to your own!
+        -->
+      <header class="cv-header">
+        <div class="header-content">
+          <h1 class="name">Gabriel Nathanael H.</h1>
+          <div class="header-top">
+            <p class="role">Teknik Komputer dan Jaringan</p>
+          </div>
+          <div class="social-links">
+            <a href="#">LinkedIn</a> / <a href="#">GitHub</a> /
+            <a href="#">Portfolio</a>
+          </div>
+        </div>
+        <div class="contact-info">
+          <p>nathanael.gabrielth@gmail.com</p>
+          <p>Surabaya, Indonesia</p>
+        </div>
+      </header>
+
+      <!-- 
+            STEP 3: THE MAIN CONTENT
+            All sections are already here. we will focus on STYLING them in CSS.
+        -->
+      <main class="cv-main">
+        <!-- STEP 4: EXPERIENCE SECTION -->
+        <section class="cv-section">
+          <h2 class="section-title">Experience</h2>
+          <div class="experience-item">
+            <div class="item-header">
+              <h3 class="item-title">Computer & Network Engineering Student</h3>
+              <span class="item-date">Juli 2024 — Sekarang</span>
+            </div>
+            <p class="item-org">SMK — Teknik Komputer dan Jaringan</p>
+            <p class="item-desc">
+              Operating System (Seperti Windows dan Linux Ubuntu) dan Mengganti Hardware PC/Laptop(Ram dan SSD)
+            </p>
+          </div>
+          <div class="experience-item">
+            <div class="item-header">
+              <h3 class="item-title"></h3>
+              <span class="item-date"></span>
+            </div>
+            <p class="item-org"></p>
+            <p class="item-desc">
+
+            </p>
+          </div>
+        </section>
+
+        <!-- STEP 5: PROJECTS SECTION -->
+        <section class="cv-section">
+          <h2 class="section-title">Selected Projects</h2>
+          <div class="project-list">
+            <div class="project-item">
+              <h3 class="item-title">
+                <a href="#">Perakitan Komputer Dasar</a>
+              </h3>
+              <p class="item-desc">
+               Merakit komputer dari komponen utama seperti motherboard, processor, RAM, storage, dan power supply serta memastikan sistem dapat berjalan dengan baik.
+              </p>
+            </div>
+            <div class="project-item">
+              <h3 class="item-title"><a href="#">Instalasi Sistem Operasi Komputer</a></h3>
+              <p class="item-desc">
+                Melakukan instalasi sistem operasi Windows pada beberapa komputer/laptop, termasuk proses partisi, instalasi driver, dan konfigurasi awal sistem.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- STEP 6: COLUMN LAYOUT (Expertise & Education) -->
+        <section class="cv-section inline-sections">
+          <div class="sub-section">
+            <h2 class="section-title">Skills</h2>
+            <ul class="skills-list">
+              <li>Menginstall Operating System</li>
+              <li>Menginstall Dual Boot OS</li>
+              <li>Mengganti Hardware(Ram, Ssd)</li>
+            </ul>
+          </div>
+          <div class="sub-section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+              <h3 class="item-title">Teknik Komputer dan Jaringan</h3>
+              <p class="item-org">SMK St Louis Surabaya, 2024-2027</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- STEP 7: THE FOOTER -->
+      <footer class="cv-footer">
+        <p>&copy; 2026 Gabriel. Personal Portfolio.</p>
+      </footer>
+    </div>
+
+    <!-- STEP 15: THE TOGGLE BUTTON (Floating) -->
+    <button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode">
+      Theme
+    </button>
+
+    <!-- STEP 17: ADDING THE SCRIPT -->
+    <script src="script.js"></script>
+  </body>
+</html>
